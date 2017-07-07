@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+body {
+    padding-top: 70px;
+}
+
+#navbar{
+    padding-left: 75px;
+}
+
+.navbar-header{
+        padding-left: 75px;
+    }
+    
+table {
+  margin-top: 10px;
+}
+
+ /*Customize container */
+@media (min-width: 600px) {
+    .container {
+        max-width: 768px;
+    }
+}
+ /*Customize container */
+@media (min-width: 1024px) {
+    .container-fluid {
+        max-width: 1024px;
+    }
+}
